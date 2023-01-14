@@ -207,15 +207,15 @@ printf("\nEl tamaño del vector es: %d\n",longitud);
 
 int i,n = sizeof(v1)/sizeof(v1[0]);
 
-float resultado [n];
-int contador=0;
+float result [n];
+int cont=0;
 for(i=0;i<n; i++){
-    resultado[contador++] = v1[i];
+    result[cont++] = v1[i];
         }
 
     printf("\nlos valores inferiores a 1:\n");
-    for (i=0; i<contador;i++){
-        printf("%.6f", resultado[i]);
+    for (i=0; i<cont;i++){
+        printf("%.6f", result[i]);
          }
   // Variable acumuladora           
 int suma=0;
